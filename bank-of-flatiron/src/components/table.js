@@ -1,5 +1,5 @@
 import React from "react";
-import BankFlatironTRow from "./Row";
+import BankFlatironTRow from "./row";
 
 function BankFlatironTable({ transactions, onDelete }) {
     return (
@@ -15,7 +15,7 @@ function BankFlatironTable({ transactions, onDelete }) {
         </thead>
         <tbody>
           {transactions.map((transaction) => (
-            <TransactionRow key={transaction.id} transaction={transaction} onDel
+            <BankFlatironTRow key={transaction.id} transaction={transaction} onDel
 onDelete={onDelete} />
           ))}
         </tbody>

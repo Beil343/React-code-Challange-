@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import BankFlatironTable from "./BankFlatironTable";
-import BankFlatironForm from "./BankFlatironForm";
-import "";
+import BankFlatironTable from "./table";
+import BankFlatironForm from "./form";
+import "./App.css";
 const BankFlatironPage = () => {
   const [transactions, setTransactions] = useState([]);
   const [filteredTransactions, setFilteredTransactions] = useState([]);

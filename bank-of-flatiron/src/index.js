@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import BankFlatironPage from './components/page';
 import reportWebVitals from './reportWebVitals';
 
